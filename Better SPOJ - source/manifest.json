@@ -1,20 +1,27 @@
 {
-  "name": "Better SPOJ",
-  "version": "1.2.0",
-  "description": "Some subtle tweaks for the site.",
-  "background": {"page": "background.html"},
-  "manifest_version": 2,
-  "author": "Pulkit Sharma","Koki Igarashi",
-  "browser_action": {
-    "name": "Manipulate DOM",
-    "default_icon": "icon.png"
-  },
-   "icons": {"20":"icon.png",
-	     "128":"icon128.png"
-	},  
-  "content_scripts": [ {
-    "js": [ "jquery-1.11.1.min.js", "background.js" ],
-    "matches": [ "http://www.spoj.com/*"]
-  }]
-  
+    "name": "SPOJex",
+    "version": "1.0",
+    "description": "A SPOJ Tool",
+    "background": {"page": "background.html" },
+    "manifest_version": 2,
+    "author": "Koki Igarashi",
+    "browser_action": {
+	"name": "Manipulate DOM",
+	"default_icon":"icon48.png",
+    "default_title":"SPOJex",
+    "default_popup":"popup.html"
+    },
+    "icons": {
+        "16":"icon16.png",
+        "48":"icon48.png",
+	    "128":"icon128.png"
+	     },   
+    "permissions": [
+    "storage",
+    "unlimitedStorage"
+         ],
+    "content_scripts": [ {
+	"js": [ "jquery-1.11.1.min.js", "background.js" ],
+	"matches": [ "http://www.spoj.com/*", "https://www.spoj.com/*"]
+    }]
 }
