@@ -1,7 +1,7 @@
 SPOJex
 ===========
 
-A chrome extension for some subtle changes in the website.
+A chrome extension for SPOJ.
 
 Current Features
 --------------------
@@ -17,3 +17,7 @@ Future Plans
 ------------
 * Bookmarks
 * Print pages
+
+Acknowledgement
+-------------
+This extension is mainly based on Better-SPOJ(http://github.com/pulkitsharma07/Better-SPOJ) developed by Pulkit Sharma.
