@@ -1,11 +1,11 @@
-Better-SPOJ
+SPOJex
 ===========
 
 A chrome extension for some subtle changes in the website.
 
 Current Features
 --------------------
-* Points displayed conveniently
+* Points displayed on the problem list
 
   ![Points displayed beside all problems](https://github.com/igarash1/Better-SPOJ/blob/master/ad_list.png "all classical problems")
 
@@ -15,4 +15,5 @@ Current Features
 
 Future Plans
 ------------
-* Provide a link to the institution page on a user's profile  ( which can lead to many more things )
+* Bookmarks
+* Print pages
