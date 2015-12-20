@@ -9,7 +9,7 @@ Current Features
 
   ![Points displayed beside all problems](https://github.com/igarash1/Better-SPOJ/blob/master/ad_list.png "all classical problems")
 
-* Points are displayed on the problem's home page
+* Points displayed on the problem's home page
 
   ![Points displayed on the Problem page](https://github.com/igarash1/Better-SPOJ/blob/master/ad_prob.png "problem page")
 
