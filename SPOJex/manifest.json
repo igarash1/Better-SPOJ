@@ -3,7 +3,7 @@
   "version": "0.1",
   "description": "An chrome extension for SPOJ users.",
   "background": {
-    "page": "background.html"
+    "scripts": ["background.js"]
   },
   "manifest_version": 2,
   "author": "Koki Igarashi",
@@ -18,8 +18,7 @@
     "128": "icon128.png"
   },
   "permissions": [
-    "storage",
-    "unlimitedStorage"
+    "tabs"
   ],
   "content_scripts": [
     {

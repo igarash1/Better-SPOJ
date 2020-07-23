@@ -11,6 +11,11 @@ A chrome extension for SPOJ users showing the problem scores.
 
 
 ## Current Features
+
+* Open SPOJ in a new tab when you click on the extension icon.
+
+This feature will enable you to practice harder on SPOJ.
+
 * Points displayed on the problem lists.
 
   ![Points displayed beside all problems](./ad_list.png "all classical problems"){ width=50% }
